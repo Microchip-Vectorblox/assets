@@ -3,6 +3,8 @@ YOCTO=5.15.92-linux4microchip+fpga-2023.02.1
 
 if [[ $(uname -r) != $YOCTO ]]; then
 	echo "Improper Yocto Version detected, VectorBlox demo might not function as intended."
+	echo "Yocto Version: $YOCTO required"
+	echo "Please download at https://github.com/polarfire-soc/meta-polarfire-soc-yocto-bsp/releases/download/v2023.02.1/core-image-minimal-dev-mpfs-video-kit-20230328105837.rootfs.wic.gz"
 	exit
 fi
 
