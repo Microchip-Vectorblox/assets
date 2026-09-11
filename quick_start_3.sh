@@ -1,4 +1,4 @@
-VER="${1:-3.1}"
+VER="${1:-3.1.1}"
 COMP="${2:-NCOMP}"
 YOCTO=5.15.92-linux4microchip+fpga-2023.02.1
 
